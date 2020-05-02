@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Ubantu, "Open Sans", Montserrat;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  min-height: 100vh;
+  padding-bottom: 30px;
+  background: linear-gradient(to right, #4ebefe, #3891db);
+}
+
+.logo {
+  padding-top: 60px;
+  padding-bottom: 150px;
+}
+
+.title {
+  width: 560px;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 37px;
+  padding-bottom: 70px;
+}
+
+.title span {
+  font-size: 59px;
+}
+
+.intro {
+  width: 390px;
+  color: white;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  padding-bottom: 40px;
+}
+
+.button {
+  display: block;
+  width: 222px;
+  padding: 16px;
+  
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  
+  background: #ffd429;
+  transition: 0.3s ease-in-out;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  display: block;
+  width: 70%;
+  height: auto;
+}
+
+.img-wrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 515px;
+  height: 515px;
+  border-radius: 50%;
+  background: #5cb2ee;
+  box-shadow: 0px 11px 79px rgba(0, 0, 0, 0.09);
+}
+
+.ahead {
+  margin: 0;
+  font-size: 30px;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+  padding-top: 105px;
+  padding-bottom: 75px;
+}
+
+.future {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 300px;
+}
+
+.item-img {
+  width: auto;
+  padding-bottom: 35px;
+}
+
+.item-title {
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.item-text {
+  margin: 0;
+  padding-bottom: 115px;
+}
+
+.mail {
+  background-color: #ecf3f8;
+  height: 603px;
+}
+
+.ticket {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 30px;
+  padding-top: 100px;
+  text-align: center;
+  margin-bottom: 58px;
+}
+
+form {
+  display: block;
+  width: 340px;
+  margin: 0 auto;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+}
+
+[type="submit"] {
+  width: 100%;
+}
+
+.rights {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  color: white;
+  padding-top: 62px;
+}
+
+.footer {
+  height: 140px;
+  background: #164d7a;
+  text-align: center;
+}
