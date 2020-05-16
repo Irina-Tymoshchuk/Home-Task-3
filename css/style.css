@@ -50,13 +50,13 @@ body {
   display: block;
   width: 222px;
   padding: 16px;
-  
+
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   text-align: center;
   text-decoration: none;
   color: black;
-  
+
   background: #ffd429;
   transition: 0.3s ease-in-out;
   border: none;
@@ -64,12 +64,13 @@ body {
 }
 
 .button:hover {
-  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
 .wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .image {
@@ -89,19 +90,22 @@ body {
   background: #5cb2ee;
   box-shadow: 0px 11px 79px rgba(0, 0, 0, 0.09);
 }
+.learn {
+  padding: 100px 0;
+}
 
 .ahead {
-  margin: 0;
+  margin: 0 auto;
   font-size: 30px;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
-  padding-top: 105px;
   padding-bottom: 75px;
 }
 
 .future {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
 }
 
 .item {
@@ -125,21 +129,19 @@ body {
 
 .item-text {
   margin: 0;
-  padding-bottom: 115px;
 }
 
 .mail {
   background-color: #ecf3f8;
-  height: 603px;
+  padding: 95px 0 105px;
 }
 
 .ticket {
   margin: 0;
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
-  padding-top: 100px;
   text-align: center;
-  margin-bottom: 58px;
+  padding-bottom: 58px;
 }
 
 form {
