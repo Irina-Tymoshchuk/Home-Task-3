@@ -17,13 +17,12 @@ body {
 
 .header {
   min-height: 100vh;
-  padding-bottom: 30px;
+  padding-bottom: 80px;
   background: linear-gradient(to right, #4ebefe, #3891db);
 }
 
 .logo {
-  padding-top: 60px;
-  padding-bottom: 150px;
+  padding: 60px 0;
 }
 
 .title {
