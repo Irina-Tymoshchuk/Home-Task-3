@@ -6,8 +6,6 @@
 
 body {
   font-family: Ubantu, "Open Sans", Montserrat;
-  padding: 0;
-  margin: 0;
 }
 
 .container {
@@ -16,21 +14,20 @@ body {
 }
 
 .header {
-  min-height: 100vh;
   padding-bottom: 80px;
   background: linear-gradient(to right, #4ebefe, #3891db);
 }
 
 .logo {
-  padding: 60px 0;
+  margin: 60px 0;
 }
 
 .title {
   width: 560px;
+  margin-bottom: 70px;
   color: white;
   font-family: "Ubuntu", sans-serif;
   font-size: 37px;
-  padding-bottom: 70px;
 }
 
 .title span {
@@ -39,10 +36,10 @@ body {
 
 .intro {
   width: 390px;
+  margin-bottom: 40px;
   color: white;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
-  padding-bottom: 40px;
 }
 
 .button {
@@ -95,10 +92,10 @@ body {
 
 .ahead {
   margin: 0 auto;
+  margin-bottom: 75px;
   font-size: 30px;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
-  padding-bottom: 75px;
 }
 
 .future {
@@ -126,21 +123,16 @@ body {
   padding-bottom: 15px;
 }
 
-.item-text {
-  margin: 0;
-}
-
 .mail {
   background-color: #ecf3f8;
   padding: 95px 0 105px;
 }
 
 .ticket {
-  margin: 0;
+  margin-bottom: 58px;
   font-family: "Ubuntu", sans-serif;
   font-size: 30px;
   text-align: center;
-  padding-bottom: 58px;
 }
 
 form {
@@ -161,15 +153,13 @@ input {
 }
 
 .rights {
-  margin: 0;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
   color: white;
-  padding-top: 62px;
 }
 
 .footer {
-  height: 140px;
+  padding: 62px 0;
   background: #164d7a;
   text-align: center;
 }
