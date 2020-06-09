@@ -163,3 +163,95 @@ input {
   background: #164d7a;
   text-align: center;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+  }
+  .title {
+    width: 450px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+  }
+  .title {
+    width: 370px;
+  }
+  .intro {
+    width: 350px;
+  }
+  .img-wrp {
+    height: 350px;
+  }
+  .item {
+    width: 190px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: max-content;
+  }
+  .img-wrp {
+    display: none;
+  }
+  .future {
+    flex-direction: column;
+    width: max-content;
+    margin: 0 auto;
+  }
+  .ahead {
+    margin-bottom: 50px;
+  }
+  .item {
+    margin: 25px;
+  }
+  .title {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .intro {
+    text-align: center;
+  }
+  .button {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .offer {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 320px) {
+  .container {
+    width: 90%;
+  }
+  .logo {
+    margin: 30px 0;
+  }
+  .title {
+    width: 100%;
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .title span {
+    font-size: 50px;
+  }
+  .intro {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+  .learn {
+    padding: 70px 0;
+  }
+  .mail {
+    padding: 70px 0 70px;
+  }
+}
