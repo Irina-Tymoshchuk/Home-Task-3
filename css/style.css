@@ -226,6 +226,15 @@ input {
   .offer {
     margin: 0 auto;
   }
+  .title {
+    width: 100%;
+  }
+  .intro {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 320px) {
   .container {
