@@ -8,6 +8,7 @@ body {
   font-family: Ubantu, "Open Sans", Montserrat;
 }
 
+
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -61,6 +62,11 @@ body {
 
 .button:hover {
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  color: #fff;
+    	background: #164d7a;
+    	tansition: all .3s linear;
+    	-webkit-transition: all .3s linear;
+    	-moz-transition: all .3s linear; 
 }
 
 .wrapper {

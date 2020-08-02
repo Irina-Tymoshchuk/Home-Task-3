@@ -2,24 +2,14 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="./css/style.css" />
     <title>homework</title>
+
+    <link rel="stylesheet" media="all" href="css/animate.css" />
   </head>
 
   <body>
@@ -28,19 +18,19 @@
         <img class="logo" src="./img/logo.png" alt="wayup" />
         <div class="wrapper">
           <div class="offer">
-            <h1 class="title">
+            <h1 class="title animated fadeInUp">
               С помощью верстки я создам ту жизнь, о которой
               <span class="dream">мечтаю!</span>
             </h1>
 
-            <p class="intro">
-              Мои стремления + настойчивость позволят мне достичь чего угодно. Я
-              не верю в это. Я знаю это на 100%. Меня не остановить!
+            <p class="intro animated fadeInUp">
+              Мои стремления + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня
+              не остановить!
             </p>
             <a class="button" href="#">Двигаться к мечте!</a>
           </div>
 
-          <div class="img-wrp">
+          <div class="img-wrp animated rotateInDownRight">
             <img class="image" src="./img/main.png" alt="wayup" />
           </div>
         </div>
@@ -49,25 +39,17 @@
 
     <section id="learn" class="learn">
       <div class="container">
-        <h2 class="ahead">Что меня ждет впереди</h2>
-        <ul class="future">
+        <h2 class="ahead wow fadeInDown">Что меня ждет впереди</h2>
+        <ul class="future wow fadeInDown">
           <li class="item">
-            <img
-              class="item-img"
-              src="./img/icons8-time-machine-96.png"
-              alt="time-machine"
-            />
+            <img class="item-img" src="./img/icons8-time-machine-96.png" alt="time-machine" />
             <h3 class="item-title">Свободное время</h3>
             <p class="item-text">
               Мне нужно свободное время на семью и самое настоящее
             </p>
           </li>
           <li class="item">
-            <img
-              class="item-img"
-              src="./img/icons8-launch-96.png"
-              alt="launch"
-            />
+            <img class="item-img" src="./img/icons8-launch-96.png" alt="launch" />
             <h3 class="item-title">Яркие путешествия</h3>
             <p class="item-text">
               Работать откуда угодно - что может быть лучше?
@@ -86,23 +68,14 @@
 
     <section id="mail" class="mail">
       <div class="container">
-        <h2 class="ticket">Форма заказа билета в будущее</h2>
+        <h2 class="ticket wow fadeInLeft" data-wow-duration="2s">Форма заказа билета в будущее</h2>
 
-        <form class="form" action="" method="post">
+        <form class="form wow fadeInRight" data-wow-duration="2s" data-wow-delay="1s" action="#" method="post">
           <input type="text" name="name" placeholder="Имя" />
           <input type="email" name="mail" placeholder="E-mail" />
           <input type="tel" name="phone" placeholder="Телефон" />
-          <input
-            type="text"
-            name="text"
-            placeholder="Куда я полечу в ближайшее время?"
-          />
-          <input
-            class="button"
-            type="submit"
-            name="button"
-            value="Двигаться к мечте!"
-          />
+          <input type="text" name="text" placeholder="Куда я полечу в ближайшее время?" />
+          <input class="button" type="submit" name="button" value="Двигаться к мечте!" />
         </form>
       </div>
     </section>
@@ -110,5 +83,12 @@
     <footer id="footer" class="footer">
       <p class="rights">© Все мои мечты защищены моим трудолюбием</p>
     </footer>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <script src="js/main.js"></script>
   </body>
 </html>
